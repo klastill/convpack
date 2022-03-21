@@ -5,8 +5,8 @@
 ## functions List
 ---
 ### IsInSlice(elem, slice)
-##### check if slice contains elem or not
-##### support dynmic types
++ ##### check if slice contains elem or not
++ ##### support dynmic types
 
 ### DeleteDup(slice)
 + ##### delete duplicated elems from slice
