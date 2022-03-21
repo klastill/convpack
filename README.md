@@ -12,8 +12,9 @@
 + ##### delete duplicated elems from slice
 + ##### support dynamic types
 
-### GetFiles(path)
-+ ##### get files list from path
+### GetFiles(path, ...ext)
++ ##### get all files list from path
++ ##### can limit the extension by adding variables
 
 ### OpenXlsx(file)
 + ##### open xlsx file and return them
