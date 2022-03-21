@@ -9,14 +9,14 @@
 ##### support dynmic types
 
 ### DeleteDup(slice)
-##### delete duplicated elems from slice
-##### support dynmic types
++ ##### delete duplicated elems from slice
++ ##### support dynmic types
 
 ### GetFiles(path)
-##### get files list from path
++ ##### get files list from path
 
 ### OpenXlsx(file)
-##### open xlsx file and return them
++ ##### open xlsx file and return them
 
 ### OpenXml(file)
-##### open xml file and return them
++ ##### open xml file and return them
