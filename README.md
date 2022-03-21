@@ -6,11 +6,11 @@
 ---
 ### IsInSlice(elem, slice)
 + ##### check if slice contains elem or not
-+ ##### support dynmic types
++ ##### support dynamic types
 
 ### DeleteDup(slice)
 + ##### delete duplicated elems from slice
-+ ##### support dynmic types
++ ##### support dynamic types
 
 ### GetFiles(path)
 + ##### get files list from path
