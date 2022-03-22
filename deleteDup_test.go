@@ -11,11 +11,11 @@ func TestDeleteDup(t *testing.T) {
 	sl := []string{"A", "B", "C", "A", "B"}
 	il := []int{1, 2, 3, 4, 1, 2, 3, 5, 6, 7, 5}
 
-	if len(DeleteDup(sl)) == 3 {
+	if len(DeleteDupStr(sl)) == 3 {
 		actual++
 	}
 
-	if len(DeleteDup(il)) == 7 {
+	if len(DeleteDupInt(il)) == 7 {
 		actual++
 	}
 

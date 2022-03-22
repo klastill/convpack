@@ -8,9 +8,13 @@
 + ##### check if slice contains elem or not
 + ##### support dynamic types
 
-### DeleteDup(slice)
+### DeleteDupStr(slice)
 + ##### delete duplicated elems from slice
-+ ##### support dynamic types
++ ##### support []string
+
+### DeleteDupInt(slice)
++ ##### delete duplicated elems from slice
++ ##### support []int
 
 ### GetFiles(path, ...ext)
 + ##### get all files list from path
