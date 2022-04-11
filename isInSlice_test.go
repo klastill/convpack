@@ -8,25 +8,27 @@ func TestIsInSlice(t *testing.T) {
 	expected := 3
 	actual := 0
 
-	str := "a"
-	strSlice := []string{"a", "b", "c", "d"}
-	num := 3
+	strSlice := []string{"1", "2", "3", "4"}
 	intSlice := []int{1, 2, 3, 4, 5}
-	ru := 'r'
-	runeSlice := []rune{'q', 'w', 'e', 'r'}
+	runeSlice := []rune{'1', '2', '3', '4'}
 
-	if IsInSlice(str, strSlice) {
+	if IsInSlice("1", strSlice) {
 		actual++
 	}
 
-	if IsInSlice(num, intSlice) {
+	if IsInSlice(3, intSlice) {
 		actual++
 	}
 
-	if IsInSlice(ru, runeSlice) {
+	if IsInSlice('2', runeSlice) {
 		actual++
 	}
-
+	if IsInSlice(2, runeSlice) {
+		actual++
+	}
+	if IsInSlice('2', intSlice) {
+		actual++
+	}
 	if expected != actual {
 		t.Fatal("Fatal! expected : ", expected, " actual : ", actual)
 	}
