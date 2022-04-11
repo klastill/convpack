@@ -6,15 +6,15 @@
 ---
 ### IsInSlice(elem, slice)
 + ##### check if slice contains elem or not
-+ ##### support dynamic types
++ ##### support Comparable Types
 
-### DeleteDupStr(slice)
+### DeleteDup(slice)
 + ##### delete duplicated elems from slice
-+ ##### support []string
++ ##### support Comparable Types
 
-### DeleteDupInt(slice)
-+ ##### delete duplicated elems from slice
-+ ##### support []int
+### Filter(slice)
++ ##### filtering elems by condition
++ ##### support any Types
 
 ### GetFiles(path, ...ext)
 + ##### get all files list from path
