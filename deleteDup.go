@@ -1,8 +1,8 @@
 package convpack
 
-func DeleteDupInt(slice []int) []int {
-	ret := []int{}
-	m := make(map[int]struct{})
+func DeleteDup[T comparable](slice []T) []T {
+	ret := []T{}
+	m := make(map[T]struct{})
 
 	for _, val := range slice {
 		if _, ok := m[val]; !ok {
