@@ -25,3 +25,11 @@
 
 ### OpenXml(file)
 + ##### open xml file and return them
+
+### GetIntersection(...arr)
++ ##### get intersection of arrays
++ ##### support Comparable Types
+
+### GetUnion(...arr)
++ ##### get union of arrays
++ ##### support Comparable Types
